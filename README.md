@@ -18,7 +18,7 @@ Check out the flive website [here!]()
 
 -CareerFoundry for guidance in building this app.
 
-## User Stories and Test Scenarios:
+## User Stories and Test Scenarios(Using Gherkin's Syntax):
 
 1.  Filter events by city:
 
