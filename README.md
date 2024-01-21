@@ -14,6 +14,8 @@ Check out the flive website [here!]()
 -CSS3
 -JavaScript
 
+-Serverless functions are used for an authorization server as well as no backend maintenance.  Serverless functions are also used so that the application can be used even if the user is offline, can be scaled up easily, and will not cost anything for idle time.
+
 ## Acknowledgments:
 
 -CareerFoundry for guidance in building this app.
