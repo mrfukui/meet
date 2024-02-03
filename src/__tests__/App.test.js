@@ -65,6 +65,8 @@ describe("<App /> integration", () => {
 
     await user.type(NumberOfEventsInput, "{backspace}{backspace}10");
 
+    AppComponent.rerender(<App />);
+
     const EventListDOM = AppDOM.querySelector("#event-list");
     const allRenderedEventItems =
       within(EventListDOM).queryAllByRole("listitem");
