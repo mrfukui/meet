@@ -6,6 +6,9 @@ import NumberOfEvents from "./components/NumberOfEvents";
 import { useEffect, useState } from "react";
 import { extractLocations, getEvents } from "./api";
 import { InfoAlert, ErrorAlert, WarningAlert } from "./components/Alert";
+import CityEventsChart from "./components/CityEventsChart";
+import EventGenresChart from "./components/EventGenresChart";
+import eventLogo from "./img/—Pngtree—schedule glyph icon vector_5058309.png";
 
 import "./App.css";
 
@@ -43,6 +46,10 @@ const App = () => {
 
   return (
     <div className="App">
+      <div className="title-div">
+        <h1 className="app-title">meet</h1>
+        <img className="event-logo" src={eventLogo} alt="" />
+      </div>
       <div className="alerts-container">
         {infoAlert.length ? <InfoAlert text={infoAlert} /> : null}
         {errorAlert.length ? <ErrorAlert text={errorAlert} /> : null}
@@ -57,6 +64,10 @@ const App = () => {
         setCurrentNOE={setCurrentNOE}
         setErrorAlert={setErrorAlert}
       />
+      <div className="charts-container">
+        <EventGenresChart events={events} />
+        <CityEventsChart allLocations={allLocations} events={events} />
+      </div>
       <EventList events={events} />
     </div>
   );

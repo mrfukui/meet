@@ -2,6 +2,7 @@
 .App {
   text-align: center;
   padding: 2% 5%;
+  padding-top: 1em;
 }
 
 .App * {
@@ -73,8 +74,9 @@ input[type="number"] {
   margin-bottom: 10px;
   text-align: left;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 8px;
   position: relative;
+  background-color: #75af96;
 }
 
 .details-btn {
@@ -82,9 +84,10 @@ input[type="number"] {
   right: 5px;
   bottom: 5px;
   padding: 5px 8px;
-  border-radius: 4px;
+  border-radius: 8px;
   outline: none;
   cursor: pointer;
+  background-color: white;
 }
 
 .alerts-container {
@@ -93,4 +96,32 @@ input[type="number"] {
   left: 20px;
   width: 250px;
   z-index: 1000;
+}
+
+.charts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .charts-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.app-title {
+  font-size: 4em;
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-logo {
+  width: 3em;
+  height: auto;
+  margin-left: 0.5em;
 }
