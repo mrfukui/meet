@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/meet/static/css/main.e8433431.css",
-    "main.js": "/meet/static/js/main.c626f21c.js",
+    "main.css": "/meet/static/css/main.cb35882a.css",
+    "main.js": "/meet/static/js/main.b62be60f.js",
     "static/js/787.0f140951.chunk.js": "/meet/static/js/787.0f140951.chunk.js",
+    "static/media/—Pngtree—schedule glyph icon vector_5058309.png": "/meet/static/media/—Pngtree—schedule glyph icon vector_5058309.655e3f1736fe38adc8a3.png",
     "service-worker.js": "/meet/service-worker.js",
     "index.html": "/meet/index.html",
-    "main.e8433431.css.map": "/meet/static/css/main.e8433431.css.map",
-    "main.c626f21c.js.map": "/meet/static/js/main.c626f21c.js.map",
+    "main.cb35882a.css.map": "/meet/static/css/main.cb35882a.css.map",
+    "main.b62be60f.js.map": "/meet/static/js/main.b62be60f.js.map",
     "787.0f140951.chunk.js.map": "/meet/static/js/787.0f140951.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8433431.css",
-    "static/js/main.c626f21c.js"
+    "static/css/main.cb35882a.css",
+    "static/js/main.b62be60f.js"
   ]
 }
