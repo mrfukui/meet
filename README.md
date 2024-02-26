@@ -6,15 +6,20 @@ This app allows users to access information on events happening in different cit
 
 ## Live Website:
 
-Check out the flive website [here!]()
+Check out the live website [here!](https://mrfukui.github.io/meet/)
 
 ## Technologies Used:
 
 -HTML5
 -CSS3
 -JavaScript
+-AWS Lambda
+-Google Calendar API
+-Jest
+-Puppeteer
+-Atatus
 
--Serverless functions are used for an authorization server as well as no backend maintenance.  Serverless functions are also used so that the application can be used even if the user is offline, can be scaled up easily, and will not cost anything for idle time.
+-Serverless functions are used for an authorization server as well as no backend maintenance. Serverless functions are also used so that the application can be used even if the user is offline, can be scaled up easily, and will not cost anything for idle time.
 
 ## Acknowledgments:
 
