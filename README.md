@@ -8,6 +8,10 @@ This app allows users to access information on events happening in different cit
 
 Check out the live website [here!](https://mrfukui.github.io/meet/)
 
+## Screenshot of Application:
+
+![Screenshot](<public/Screenshot%20(238).png>)
+
 ## Technologies Used:
 
 -HTML5
